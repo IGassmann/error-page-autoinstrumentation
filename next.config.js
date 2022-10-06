@@ -12,10 +12,7 @@ const moduleExports = {
      */
     swcPlugins: [
       [
-        "next-superjson-plugin",
-        {
-          excluded: ['statusCode', 'title','withDarkMode'],
-        },
+        "next-superjson-plugin", {},
       ],
     ],
   },
